@@ -17,4 +17,5 @@ io.on('connection', (socket) => {
 
 server.listen(3000, () => {
     console.log('Server listening on http://localhost:3000');
+    console.log('Press Ctrl+C to stop the server');
 });
